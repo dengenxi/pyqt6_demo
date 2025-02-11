@@ -1,6 +1,7 @@
 import sys
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QLabel, QLineEdit, QApplication)
 from PyQt6.QtCore import Qt
+from PyQt6.QtGui import QFont
 
 class Example(QWidget):
     def __init__(self):
@@ -23,7 +24,7 @@ class Example(QWidget):
 
         self.resize(600, 450)
         self.setWindowTitle('QLineEdit')
-
+        self.setFont(QFont('LXGW WenKai Screen', 20))
         self.show()
 
     def on_changed(self, text):
