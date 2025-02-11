@@ -64,7 +64,7 @@ class Example(QWidget):
                 background-color: rgb(115.2, 117.6, 122.4);
             }
         """)
-        cancel_button.clicked.connect(quit)
+        cancel_button.clicked.connect(self.quit)
 
         hbox = QHBoxLayout()
         hbox.addStretch(1)
