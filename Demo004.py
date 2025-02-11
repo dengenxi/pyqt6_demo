@@ -16,7 +16,7 @@ class Example(QWidget):
     def initUI(self):
         qbtn = QPushButton('退出软件', self)
         qbtn.setFont(QFont('LXGW WenKai Screen', 20))
-        qbtn.clicked.connect(quit)
+        qbtn.clicked.connect(self.quit)
         qbtn.resize(qbtn.sizeHint())
         qbtn.move(50, 50)
 
