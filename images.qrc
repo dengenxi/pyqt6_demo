@@ -1,0 +1,11 @@
+<RCC>
+    <qresource>
+        <file>icon/open.png</file>
+        <file>icon/exit.png</file>
+        <file>icon/save.png</file>
+        <file>icon/dragon.png</file>
+        <file>icon/qq.png</file>
+        <file>icon/douyin.png</file>
+        <file>icon/file.png</file>
+    </qresource>
+</RCC>
