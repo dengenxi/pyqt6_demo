@@ -1,5 +1,5 @@
 import sys
-from PyQt6.QtWidgets import QMainWindow, QApplication
+from PyQt6.QtWidgets import QMainWindow, QLabel, QApplication
 from PyQt6.QtGui import QAction
 
 
@@ -9,9 +9,10 @@ class Example(QMainWindow):
         self.initUI()
 
     def initUI(self):
+        label = QLabel('因为我们都太年轻，不知道天高地厚。', self)
 
         status_bar = self.statusBar()
-        status_bar.showMessage("因为我们都太年轻，不知道天高地厚。")
+        status_bar.addWidget(label)
 
         menu_bar = self.menuBar()
         view_menu = menu_bar.addMenu("View")
