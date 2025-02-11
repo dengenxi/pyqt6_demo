@@ -3,6 +3,7 @@ from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QLabel, QLineEdit, QApplicati
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 
+
 class Example(QWidget):
     def __init__(self):
         super().__init__()
