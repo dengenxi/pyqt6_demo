@@ -7,5 +7,9 @@
         <file>icon/qq.png</file>
         <file>icon/douyin.png</file>
         <file>icon/file.png</file>
+        <file>icon/min.png</file>
+        <file>icon/mute.png</file>
+        <file>icon/med.png</file>
+        <file>icon/max.png</file>
     </qresource>
 </RCC>
