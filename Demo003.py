@@ -7,9 +7,9 @@ class Example(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.init_ui()
 
-    def initUI(self):
+    def init_ui(self):
         QToolTip.setFont(QFont('LXGW WenKai Screen', 20))
 
         self.setToolTip("因为我们都太年轻，不知道天高地厚。")
@@ -27,7 +27,6 @@ class Example(QWidget):
 
 def main():
     app = QApplication(sys.argv)
-
     ex = Example()
     sys.exit(app.exec())
 
